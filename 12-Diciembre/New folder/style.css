@@ -1,0 +1,51 @@
+* {
+  font-family: proxima-nova, Montserrat, Arial, sans-serif !important;
+}
+
+.card__container {
+  width: 302px;
+  height: 371px;
+  background: #fafafa;
+  box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.card__img {
+  height: 164px;
+  width: 302px;
+}
+
+.card__content {
+  padding: 0 16px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.card__link,
+.card__link__arrow {
+  color: #33ad73;
+  font-weight: bold;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.card__link__text {
+  color: #33ad73;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.card__link__text:hover {
+  color: #008046;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: 5px;
+  transition: all 0.5s ease-in-out;
+}
