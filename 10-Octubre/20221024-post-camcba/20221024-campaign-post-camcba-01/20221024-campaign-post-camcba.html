@@ -1,0 +1,603 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="es">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="x-apple-disable-message-reformatting">
+	<title>Doppler</title>
+	<style>
+		html,
+		body {
+			margin: 0 auto !important;
+			padding: 0 !important;
+			background-color: #ffffff;
+		}
+
+		* {
+			-ms-text-size-adjust: 100%;
+			-webkit-text-size-adjust: 100%;
+		}
+
+		div[style*="margin: 16px 0"] {
+			margin: 0 !important;
+		}
+
+		table,
+		td {
+			mso-table-lspace: 0pt !important;
+			mso-table-rspace: 0pt !important;
+		}
+
+		table table table {
+			table-layout: auto;
+		}
+
+		img {
+			-ms-interpolation-mode: bicubic;
+			border: 0;
+			height: auto;
+			line-height: 100%;
+			outline: none;
+			text-decoration: none;
+		}
+
+		/* Hover styles for buttons */
+		.button--td:hover,
+		.button--a:hover {
+			background: #008046 !important;
+		}
+
+		.link-hover:hover {
+			color: #008046 !important;
+		}
+
+		*[x-apple-data-detectors],
+		.x-gmail-data-detectors,
+		.x-gmail-data-detectors *,
+		.aBn {
+			border-bottom: 0 !important;
+			cursor: default !important;
+			color: inherit !important;
+			text-decoration: none !important;
+			font-size: inherit !important;
+			font-family: inherit !important;
+			font-weight: inherit !important;
+			line-height: inherit !important;
+		}
+
+		th {
+			font-weight: normal;
+		}
+
+		.mobileOn {
+			display: none !important;
+			max-height: none !important;
+		}
+
+		/* MEDIA QUERIES */
+		@media all and (max-width:480px) {
+			.wrapper {
+				width: 320px !important;
+				padding: 0 !important;
+			}
+
+			.container {
+				width: 300px !important;
+				padding: 0 !important;
+			}
+
+			.mobile {
+				width: 300px !important;
+				display: block !important;
+				padding: 0 !important;
+			}
+
+			.img {
+				width: 100% !important;
+				height: auto !important;
+			}
+
+			.mobileOff {
+				width: 0px !important;
+				display: none !important;
+			}
+
+			.mobileOn {
+				display: block !important;
+				max-height: none !important;
+			}
+
+			.mobile-pl,
+			.mobile-pl-btn,
+			u+.body .mobile-pl,
+			u+.body .mobile-pl-btn {
+				padding-left: 0 !important;
+			}
+
+			.mobile-pt,
+			u+.body .mobile-pt {
+				padding-top: 20px !important;
+			}
+
+			.mobile-pr,
+			u+.body .mobile-pr {
+				padding-right: 0px !important;
+			}
+
+			.mobile-margin-0,
+			u+.body .mobile-margin-0 {
+				margin: 0px !important;
+			}
+
+			.mobilePadding {
+				padding-left: 3% !important;
+				padding-right: 3% !important;
+				width: 100% !important;
+			}
+
+			u~div .wrapper {
+				width: 100vw !important;
+			}
+
+			.mobile-center,
+			u+.body .mobile-center {
+				text-align: center !important;
+			}
+		}
+	</style>
+	<!--[if gte mso 9]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+</head>
+
+<body style="margin:0; padding:0;">
+	<center>
+		<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td align="center" valign="top" style="background-color: #FFFFFF;">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td align="right" valign="top">
+								<table width="640" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<th width="640" class="mobile" align="right" valign="top">
+											<a href="#" style="cursor: default;"><img src="textura.png" alt="Imagen de textura separadora"
+													width="344"
+													style="width:100%;max-width:344px !important; vertical-align: top !important;"></a>
+										</th>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color: #FFFFFF">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td align="center" valign="top">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td align="left" valign="top">
+											<a href="#" style="cursor: default;"><img src="logo-doppler.png" alt="Logo de Doppler" width="144"
+													style="width:100%;max-width:144px !important; margin-top: -95px;"
+													class="mobile-margin-0 mobile-pt"></a>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" style="font-size:20px; line-height:20px;">&nbsp;</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color:#FFFFFF">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td align="center" valign="top">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td align="left" valign="top" style="font-family:  Helvetica, Arial, sans-serif;">
+											<h1 style="Margin: 0;font-size: 30px;line-height: 36px;color:#333333;font-weight: 700;">
+												¡Gracias por acompañarnos!
+											</h1>
+										</td>
+									</tr>
+									<tr>
+										<td height="25" style="font-size:25px; line-height:25px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td align="left" valign="top" style="font-family:  Helvetica, Arial, sans-serif;">
+											<p
+												style="Margin: 0;font-size: 15px;line-height: 25px;color:#333333;font-weight: 400;max-width: 590px;">
+												¡Hola [[[Nombre]]]! ¿Cómo estás?
+											</p>
+											<p style="margin: 0; font-size: 21px; line-height: 21px;">&nbsp;</p>
+											<p
+												style="Margin: 0;font-size: 15px;line-height: 25px;color:#333333;font-weight: 400; max-width: 580px;">
+												Soy Facu Mazza, Marketing Manager de Doppler, y estoy muy agradecido de que hayas podido asistir
+												al Webinar “<strong>Aumenta tu
+													facturación con Email Remarketing</strong>” que brindamos junto a nuestros amigos de la
+												<strong>Cámara de Comercio de Córdoba</strong>&nbsp;🙌
+											</p>
+											<p style="margin: 0; font-size: 21px; line-height: 21px;">&nbsp;</p>
+											<p
+												style="Margin: 0;font-size: 15px;line-height: 25px;color:#333333;font-weight: 400; max-width: 540px;">
+												Quiero que le saques el máximo provecho al Webinar, por eso te escribo para repasar qué hemos
+												visto y que así puedas
+												ponerlo en práctica en tu Estrategia de Email Marketing.
+											</p>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color: #FFFFFF;">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td align="center" valign="top">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td height="50" style="font-size:50px; line-height:50px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td class="mobile-center" align="left" valign="top"
+											style="font-family:  Helvetica, Arial, sans-serif;">
+											<p style="Margin: 0;font-size: 18px;line-height: 29px;color:#333333;font-weight: 700; ">
+												¿Qué aprendimos?
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td height="30" style="font-size:30px; line-height:30px;">&nbsp;</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color: #FFFFFF;">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td align="center" valign="top">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<th width="600" class="mobile mobile-pt" align="center" valign="top">
+											<table width="600" cellpadding="0" cellspacing="0" border="0" class="mobile">
+												<tr>
+													<th width="40" class="mobile" align="center" valign="top">
+														<img src="ok-message.png" alt="#" width="21"
+															style="width:100%;max-width:21px !important; vertical-align: top;">
+													</th>
+													<th width="560" class="mobile" align="left" valign="top">
+														<p class="mobile-center mobile-pt"
+															style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 400; font-size: 15px;line-height: 22px; Margin: 0">
+															Por qué el Customer Journey es una herramienta poderosa para tu negocio y cómo utilizarla
+														</p>
+													</th>
+												</tr>
+											</table>
+										</th>
+									</tr>
+									<tr>
+										<td height="20" style="font-size:20px; line-height:20px;">&nbsp;
+										</td>
+									</tr>
+									<tr>
+										<th width="600" class="mobile mobile-pt" align="center" valign="top">
+											<table width="600" cellpadding="0" cellspacing="0" border="0" class="mobile">
+												<tr>
+													<th width="40" class="mobile" align="center" valign="top">
+														<img src="ok-message.png" alt="#" width="21"
+															style="width:100%;max-width:21px !important; vertical-align: top;">
+													</th>
+													<th width="560" class="mobile" align="left" valign="top">
+														<p class="mobile-center mobile-pt"
+															style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 400; font-size: 15px;line-height: 22px; Margin: 0">
+															Cuáles son las ventajas del Email Remarketing como técnica para generar conversiones
+														</p>
+													</th>
+												</tr>
+											</table>
+										</th>
+									</tr>
+									<tr>
+										<td height="20" style="font-size:20px; line-height:20px;">&nbsp;
+										</td>
+									</tr>
+									<tr>
+										<th width="600" class="mobile mobile-pt" align="center" valign="top">
+											<table width="600" cellpadding="0" cellspacing="0" border="0" class="mobile">
+												<tr>
+													<th width="40" class="mobile" align="center" valign="top">
+														<img src="ok-message.png" alt="#" width="21"
+															style="width:100%;max-width:21px !important; vertical-align: top;">
+													</th>
+													<th width="560" class="mobile" align="left" valign="top">
+														<p class="mobile-center mobile-pt"
+															style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 400; font-size: 15px;line-height: 22px; Margin: 0">
+															Cuáles son los flujos de Email Automation más efectivos para hacer Remarketing en comercio
+															electrónico
+														</p>
+													</th>
+												</tr>
+											</table>
+										</th>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color: #FFFFFF;">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td align="center" valign="top">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td height="50" style="font-size:50px; line-height:50px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td class="mobile-center" align="left" valign="top"
+											style="font-family:  Helvetica, Arial, sans-serif;">
+											<p
+												style="Margin: 0;font-size: 15px;line-height: 25px;color:#333333;font-weight: 400; max-width: 560px;">
+												De acuerdo a <em>“The Power of Email Marketing”</em> de Moz, los <strong>emails de Remarketing
+													pueden
+													generar casi 4 veces más ingresos y
+													18 veces más ganancias netas</strong> que los correos no segmentados.
+											</p>
+											<p style="margin: 0; font-size: 21px; line-height: 21px;">&nbsp;</p>
+											<p
+												style="Margin: 0;font-size: 15px;line-height: 25px;color:#333333;font-weight: 400; max-width: 580px;">
+												Esto ocurre debido a que aproximadamente el <strong>99% de los usuarios no finalizan sus compras
+													en la primera visita</strong> a un sitio
+												web, mientras que un 75% de los mismos planea volver a la tienda y, cuando lo hacen, <strong>el
+													25% de ellos sí concreta la
+													compra en su segunda visita</strong>. Increíble, ¿no?
+											</p>
+											<p style="margin: 0; font-size: 21px; line-height: 21px;">&nbsp;</p>
+											<p
+												style="Margin: 0;font-size: 15px;line-height: 25px;color:#333333;font-weight: 400; max-width: 580px;">
+												Pon en marcha tus acciones de <a
+													href="https://blog.fromdoppler.com/que-es-el-remarketing-y-como-puede-beneficiar-a-tu-empresa/?utm_source=camaracomerciocba&utm_medium=partners&utm_campaign=campania-post-webinar-remarketing-oct2022"
+													target="_blank" style="text-decoration: none; color: #33AD73;font-weight: bold;"
+													class="link-hover ">Remarketing</a> para tentar a los consumidores a volver a tu tienda y haz
+												que las conversiones
+												crezcan.
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td height="30" style="font-size:30px; line-height:30px;">&nbsp;</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color: #F2F2F2;">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td align="center" valign="top">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td height="50" style="font-size:50px; line-height:50px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td align="center" valign="top" style="font-family:  Helvetica, Arial, sans-serif;">
+											<p
+												style="Margin: 0;font-size: 15px;line-height: 22px;color:#333333;font-weight: 700; max-width: 560px;">
+												¡Anímate y potencia tu e-commerce con tu Estrategia de Email Marketing!
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td height="30" style="font-size:30px; line-height:30px;">&nbsp;</td>
+									</tr>
+								</table>
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td align="center" valign="top" style="font-family:  Helvetica, Arial, sans-serif;">
+											<p style="Margin: 0;font-size: 15px;line-height: 24px;color:#333333;font-weight: 400; ">
+												Con cariño,
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td height="25" style="font-size:25px; line-height:25px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td align="center" valign="middle">
+											<a href="#" style="cursor: default;"><img src="foto-isma.png" alt="foto Facu Mazza" width="108"
+													style="width:100%;max-width:108px !important; vertical-align: middle !important;"></a>
+										</td>
+									</tr>
+									<tr>
+										<td height="25" style="font-size:25px; line-height:25px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td align="center" valign="top" style="font-family:  Helvetica, Arial, sans-serif;">
+											<p style="Margin: 0;font-size: 15px;line-height: 22px;color:#333333;font-weight: 700; ">
+												Facu Mazza
+											</p>
+											<p style="Margin: 0;font-size: 15px;line-height: 22px;color:#333333;font-weight: 400; ">
+												<em>Marketing Manager en Doppler</em>
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td height="50" style="font-size:50px; line-height:50px;">&nbsp;</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color: #ffffff">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td align="center" valign="top">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td align="left" valign="top">
+
+											<table width="185" border="0" cellpadding="0" cellspacing="0">
+												<tbody>
+													<tr>
+														<td height="50" style="font-size:50px; line-height:50px;">
+															&nbsp;</td>
+													</tr>
+													<tr>
+														<td width="37" align="left">
+															<a href="https://twitter.com/fromDoppler" target="_blank"><img src="twitter-icon.png"
+																	style="width: 100%; max-width: 32px !important;" width="32" class="img"
+																	alt="Twitter" /></a>
+														</td>
+														<td width="37" align="left">
+															<a href="https://www.facebook.com/DopplerEmailMarketing" target="_blank"><img
+																	src="facebook-icon.png" style="width: 100%; max-width: 32px !important;" width="32"
+																	class="img" alt="Facebook" /></a>
+														</td>
+														<td width="37" align="left">
+															<a href="https://www.linkedin.com/company/228261" target="_blank"><img
+																	src="linkedin-icon.png" style="width: 100%; max-width: 32px !important;" width="32"
+																	class="img" alt="Linkedin" /></a>
+														</td>
+														<td width="37" align="left">
+															<a href="https://www.youtube.com/user/FromDoppler" target="_blank"><img
+																	src="youtube-icon.png" style="width: 100%; max-width: 32px !important;" width="32"
+																	class="img" alt="Youtube" /></a>
+														</td>
+														<td width="37" align="left">
+															<a href="https://www.instagram.com/fromdoppler" target="_blank"><img
+																	src="instagram-icon.png" style="width: 100%; max-width: 32px !important;" width="32"
+																	class="img" alt="Instagram" /></a>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="25" style="font-size:25px; line-height:25px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td align="left" style="padding: 25px 0 0;">
+											<p style="
+                                                                  padding: 0;
+                                                                  margin: 0;
+                                                                  font-family: Helvetica, Arial, sans-serif;
+                                                                  font-size: 11px;
+                                                                  line-height: 16px;
+                                                                  color: #999999;
+                                                                ">
+												&copy;
+												<a href="https://www.fromdoppler.com" target="_blank"
+													style="text-decoration: none; color: #33AD73;font-weight: bold;" class="link-hover ">Doppler
+													LLC</a>. Todos
+												los derechos reservados.
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" style="font-size:20px; line-height:20px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td align="left" valign="top">
+											<p style="
+                                                          padding: 0;
+                                                          margin: 0;
+                                                          font-family: Helvetica, Arial, sans-serif;
+                                                          font-size: 11px;
+                                                          line-height: 14px;
+                                                          color: #999999;
+                                                        ">
+												Te informamos que los datos personales
+												contenidos en esta comunicaci&oacute;n fueron recogidos
+												en nuestro Formulario de registro, cuyo
+												responsable es Doppler LLC, dado que prestaste
+												tu consentimiento para recibir nuestras
+												comunicaciones. Al registrarte como usuario,
+												acept&aacute;s y consent&iacute;s que tus datos sean
+												almacenados por nuestra plataforma, cuyos
+												servidores est&aacute;n en Estados Unidos, para
+												gestionar el env&iacute;o de las comunicaciones
+												correspondientes. Podr&aacute;s ejercer tus derechos de
+												acceso, rectificaci&oacute;n, limitaci&oacute;n y eliminaci&oacute;n
+												de los datos escribiendo a
+												<a href="mailto:legal@fromdoppler.com" target="_blank"
+													style="text-decoration: none; color: #33AD73;font-weight: bold;"
+													class="link-hover">legal@fromdoppler.com</a>,
+												as&iacute; como presentar una reclamaci&oacute;n ante una
+												autoridad de control. Si no dese&aacute;s seguir
+												recibiendo nuestras Campa&ntilde;as, pod&eacute;s darte de
+												baja autom&aacute;ticamente haciendo clic en el enlace
+												que se encuentra debajo. Pod&eacute;s consultar
+												informaci&oacute;n adicional y detallada sobre la
+												protecci&oacute;n de tus datos personales en nuestra
+												<a href="https://www.fromdoppler.com/legal/privacidad" target="_blank"
+													style="text-decoration: none; color: #33AD73; font-weight: bold;"
+													class="link-hover">Pol&iacute;tica de
+													Privacidad</a>.
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" style="font-size:20px; line-height:20px;">&nbsp;</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</center>
+</body>
+
+</html>

@@ -1,0 +1,396 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Encode Sans Condensed' rel='stylesheet'>
+  <meta charset="utf-8"> <!-- utf-8 works for most cases -->
+  <meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+  <title>VN | EDICIÓN ESPECIAL</title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+
+  <!-- Web Font / @font-face : BEGIN -->
+  <!-- NOTE: If web fonts are not required, lines 9 - 26 can be safely removed. -->
+
+  <!-- Desktop Outlook chokes on web font references and defaults to Times New Roman, so we force a safe fallback font. -->
+  <!--[if mso]>
+		<style>
+			* {
+				font-family: 'Encode Sans' !important;
+			}
+		</style>
+	<![endif]-->
+
+  <!-- All other clients get the webfont reference; some will render the font and others will silently fail to the fallbacks. More on that here: http://stylecampaign.com/blog/2015/02/webfont-support-in-email/ -->
+  <!--[if !mso]><!-->
+  <!-- insert web font reference, eg: <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'> -->
+  <!--<![endif]-->
+
+  <!-- Web Font / @font-face : END -->
+
+  <!-- CSS Reset -->
+  <style type="text/css">
+    /* What it does: Remove spaces around the email design added by some email clients. */
+    /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+    html,
+    body {
+      margin: 0 auto !important;
+      padding: 0 !important;
+      height: 100% !important;
+      width: 100% !important;
+      background-image: url("https://nube.vialidad.gob.ar/prensa/nuevoespacio/newsletters/especiales/2022/abril/3/img/bg.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: bottom right;
+      background-color: #37BBED;
+
+    }
+
+    /* What it does: Stops email clients resizing small text. */
+    * {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    /* What is does: Centers email on Android 4.4 */
+    div[style*="margin: 16px 0"] {
+      margin: 0 !important;
+    }
+
+    /* What it does: Stops Outlook from adding extra spacing to tables. */
+    table,
+    td {
+      mso-table-lspace: 0pt !important;
+      mso-table-rspace: 0pt !important;
+    }
+
+    /* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+    table {
+      border-spacing: 0 !important;
+      border-collapse: collapse !important;
+      table-layout: fixed !important;
+      margin: 0 auto !important;
+    }
+
+    table table table {
+      table-layout: auto;
+    }
+
+    /* What it does: Uses a better rendering method when resizing images in IE. */
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+
+    /* What it does: A work-around for iOS meddling in triggered links. */
+    .mobile-link--footer a,
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: underline !important;
+    }
+  </style>
+
+  <!-- Progressive Enhancements -->
+  <style>
+    /* What it does: Hover styles for buttons */
+    .button-td,
+    .button-a {
+      transition: all 100ms ease-in;
+    }
+
+    .button-td:hover,
+    .button-a:hover {
+      background: #0073AD !important;
+      border-color: #0073AD !important;
+    }
+
+    /* Media Queries */
+    @media screen and (max-width: 600px) {
+
+      .email-container {
+        width: 100% !important;
+        margin: auto !important;
+      }
+
+      /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+      .fluid,
+      .fluid-centered {
+        max-width: 100% !important;
+        height: auto !important;
+        margin-center: auto !important;
+        margin-right: auto !important;
+      }
+
+      /* And center justify these ones. */
+      .fluid-centered {
+        margin-center: auto !important;
+        margin-right: auto !important;
+      }
+
+      /* What it does: Forces table cells into full-width rows. */
+      .stack-column,
+      .stack-column-center {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        direction: ltr !important;
+      }
+
+      /* And center justify these ones. */
+      .stack-column-center {
+        text-align: center !important;
+      }
+
+      /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+      .center-on-narrow {
+        text-align: center !important;
+        display: block !important;
+        margin-center: auto !important;
+        margin-right: auto !important;
+        float: none !important;
+      }
+
+      table.center-on-narrow {
+        display: inline-block !important;
+      }
+
+    }
+
+    body {
+      background-color: #37BBED;
+    }
+  </style>
+
+</head>
+
+<body bgcolor="#37BBED" text="#000000" link="#0000ff" style="margin: 0;" dir="ltr" lang="es-AR" width="100%"
+  height="100%">
+  <center style="width: 100%; height: 100%">
+
+    <!-- Visually Hidden Preheader Text : BEGIN -->
+    <div
+      style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: 'Encode Sans';">
+      <!-- Newsletter Agosto.-->
+    </div>
+    <!-- Visually Hidden Preheader Text : END -->
+
+    <!-- Email Header : BEGIN -->
+    <table cellspacing="0" cellpadding="0" border="0" align="center" width="600" style="margin: auto;"
+      class="email-container">
+      <tr>
+        <td style="padding: 26px 0px 0px 0px; text-align: center "><a href="https://goo.gl/sMoxEi" target="_blank"><img
+              src="https://nube.vialidad.gob.ar/prensa/nuevoespacio/newsletters/especiales/2022/abril/3/img/logo90.png"
+              width="200" height="90" alt="alt_text" border="0"></a>
+        </td>
+      </tr>
+    </table>
+    <p>
+      <!-- Email Header : END -->
+
+      <!-- Email Body : BEGIN -->
+    </p>
+    <table cellspacing="0" cellpadding="0" border="0" align="center" width="600" style="margin: auto;"
+      class="email-container">
+
+      <!-- Header : BEGIN -->
+      <tr>
+        <td bgcolor="#37BBED">
+          <img
+            src="https://nube.vialidad.gob.ar/prensa/nuevoespacio/newsletters/especiales/2022/abril/3/img/header2.png"
+            width="600" height="154" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px;">
+        </td>
+      </tr>
+      <!-- Header : END -->
+
+      <!-- NOTA DESTACADA : BEGIN -->
+      <tr>
+        <td height="307" bgcolor="#37BBED"><img
+            src="https://nube.vialidad.gob.ar/prensa/nuevoespacio/newsletters/especiales/2022/abril/3/img/nota_principal.gif"
+            alt="alt_text" width="600" height="338" style="width: 100%; max-width: 600px;" border="0" align="center">
+        </td>
+      </tr>
+      <!-- NOTA DESTACADA : END -->
+
+      <!-- 1 : BEGIN -->
+      <tr>
+        <td height="423" align="center" bgcolor="#ffffff"
+          style="padding: 0px 40px; text-align: center; font-family: 'Encode Sans'; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color: #50535C;">
+          <p align="center"><b style="font-size:25px; line-height:1;color: #50535C;"><strong>Se realizó el 2° Encuentro
+                Nacional del Plan Integral de Mantenimiento Invernal</strong></b></p>
+          <p align="center">
+            En el marco del 90° aniversario de Vialidad Nacional, en la ciudad de San Carlos de Bariloche, provincia de
+            Río Negro, se llevó a cabo el 2° Encuentro Nacional del Plan Integral de Mantenimiento Invernal, en el que
+            se definieron las acciones a seguir para asegurar la transitabilidad por 7.500 kilómetros de rutas
+            nacionales en la época más fría del año. También se presentó el Corredor de los Lagos y Bosques Andino
+            Patagónicos, que contará con la gestión conjunta de los distritos de Chubut, Río Negro y Neuquén para el
+            mantenimiento de las rutas nacionales 40, 237, 22 y 259.
+            <br />
+            <br />
+            A través del Plan Federal de Fortalecimiento Vial, en 2022 se destinarán 262 equipos de última tecnología
+            para Río Negro, Neuquén, Chubut, Santa Cruz y Tierra del Fuego. Su adquisición implicó una inversión
+            superior a los $7.100 millones.
+            <br />
+            <br />
+            En el evento estuvieron presentes el ministro de Obras Públicas, Gabriel Katopodis y el administrador
+            general de Vialidad Nacional, Gustavo Arrieta, quien expresó: “Tenemos la convicción de que formamos parte
+            de un proyecto colectivo y que en el éxito del Plan Invernal está la sustentabilidad del turismo, de la
+            producción y de la calidad de vida de la Patagonia”. “La resolución de los conflictos y las demandas que nos
+            genera el invierno en esta región de la Argentina es uno de los desafíos más importantes que tiene Vialidad
+            Nacional en todo el país”, añadió.
+            <br />
+            <br />
+            Durante el encuentro, el gerente ejecutivo de Regiones y Distritos Provinciales, Patricio García, manifestó:
+            “Nuestra presencia en Bariloche tiene que ver con llevar adelante un proceso que nos permita entender las
+            soluciones que debemos dar desde el punto de vista colectivo en los temas de Vialidad Nacional. A pocos días
+            de empezar con el plan invernal, la distribución del equipamiento tiene que tener un abanico territorial
+            importante, tenemos que llegar a todos lados. Los equipos están instalados en cada una de las provincias,
+            pero ante una emergencia tienen que estar a disposición de todos, hasta en el lugar más inhóspito”. <br />
+            <br />
+            “Nos propusimos hacer esta experiencia piloto de entender al Corredor de los Lagos y Bosques Andino
+            Patagónicos, desde Neuquén hasta Esquel, como un distrito único, donde todo, tanto el personal como el
+            equipamiento, esté a disposición para resolver el problema que se presente”, explicó el funcionario. “Esto
+            no va a hacer que desaparezcan los distritos, si no que va a haber una participación planificada, acordada,
+            y, por eso, hemos resuelto que podemos manejar el corredor de manera coordinada”, agregó.
+            <br />
+            <br />
+            El Asesor Regional de Vialidad Nacional en la Patagonia, Ricardo Curetti, expresó que “el desafío es
+            garantizar la transitabilidad en época invernal. Tiene que haber un solo criterio de un Estado nacional
+            presente. Tenemos que garantizarle al usuario que nuestras rutas son transitables, y creo que tenemos el
+            aporte de la experiencia de los trabajadores viales, que nos van a dar los fundamentos para que tomemos la
+            mejor decisión”.
+            <br />
+            A su turno, el jefe del Distrito rionegrino, Gustavo Casas, manifestó: “Este es un encuentro técnico. Una
+            problemática que, si la abordamos en forma conjunta, la vamos a poder resolver cada día mejor. Hay problemas
+            que genera la nieve, pero que también son virtudes. Gracias a la nieve existe Bariloche y esta
+            reivindicación turística que estamos viviendo hoy”. <br />
+            <br />
+          </p>
+        </td>
+      </tr>
+
+      </tr>
+      <tr>
+        <td height="307" bgcolor="#37BBED"><img
+            src="https://nube.vialidad.gob.ar/prensa/nuevoespacio/newsletters/especiales/2022/abril/3/img/2.gif"
+            alt="alt_text" width="600" height="338" style="width: 100%; max-width: 600px;" border="0" align="center">
+        </td>
+      </tr>
+      <!-- NOTA DESTACADA : END -->
+
+      <!-- 1 : BEGIN -->
+      <tr>
+        <td height="423" align="center" bgcolor="#ffffff"
+          style="padding: 0px 40px; text-align: center; font-family: 'Encode Sans'; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color: #50535C;">
+          <p align="center"><b style="font-size:25px; line-height:1; color: #50535C;"><strong>Trabajamos para garantizar
+                la circulación en la época invernal</strong></b></p>
+          <p>
+            A partir de 2022, el Plan Integral de Mantenimiento Invernal tiene un nuevo desafío: fortalecer los destinos
+            turísticos y el desarrollo productivo de la región patagónica a través de una mirada integradora basada en
+            la realidad de un corredor vial que abarca a las provincias de Neuquén, Rio Negro y Chubut, y cuenta también
+            con la participación de Santa Cruz y Tierra del Fuego.
+            <br />
+            De esta manera se garantizará que las y los usuarios estén informados y protegidos, con la tranquilidad de
+            saber que Vialidad Nacional lleva adelante un Plan Invernal que funciona de forma coordinada con otros
+            organismos nacionales, provinciales, municipales y diferentes actores de la comunidad.
+            <br />
+            <br />
+            En este sentido, con el propósito de llegar a la ciudadanía y dar a conocer el papel fundamental de Vialidad
+            Nacional en el mantenimiento de las rutas nacionales durante el invierno, en el marco del encuentro se
+            realizó una exhibición de maquinaria y equipos de última tecnología en el Centro Cívico y en el mirador del
+            lago Nahuel Huapi.
+            <br />
+            <br />
+            Por otra parte, junto a organismos como ARSAT y el Servicio Meteorológico Nacional se realizó una serie de
+            paneles para trabajar sobre diferentes temáticas vinculadas a las tareas necesarias para optimizar la
+            circulación en los caminos que atraviesan sectores del país donde el clima invernal es sumamente adverso.
+            <br />
+            <br />
+            En este sentido, se presentó el tópico “Gestión eficiente del combustible”, a cargo de la coordinadora de
+            Procesos y Actos Administrativos, Gabriela Boaglio. Otra de las exposiciones estuvo enfocada en el uso del
+            equipamiento e instalaciones. Allí se brindó una muestra sintetizada del equipamiento existente para los
+            trabajos de Vialidad Nacional en el marco del Plan Integral de Mantenimiento Invernal. Asimismo, tuvo como
+            objetivo poner en conocimiento de las y los presentes acerca de los avances, tecnologías disponibles en el
+            hemisferio norte y problemáticas observadas a bajas temperaturas con algunos combustibles.
+            <br />
+            <br />
+            Por otro lado, el panel “Anti-hielo” estuvo orientado a identificar los factores importantes para el cambio
+            en un programa de prevención e implementación de técnicas de anti-hielo durante el invierno, dentro del
+            contexto del mantenimiento de caminos. <br />
+            <br />
+          </p>
+        </td>
+      </tr>
+
+      </tr>
+      <tr>
+        <td height="307" bgcolor="#37BBED"><img
+            src="https://nube.vialidad.gob.ar/prensa/nuevoespacio/newsletters/especiales/2022/abril/3/img/3.gif"
+            alt="alt_text" width="600" height="338" style="width: 100%; max-width: 600px;" border="0" align="center">
+        </td>
+      </tr>
+      <!-- NOTA DESTACADA : END -->
+
+      <!-- 1 : BEGIN -->
+      <tr>
+        <td height="423" align="center" bgcolor="#ffffff"
+          style="padding: 0px 40px ; text-align: center; font-family: 'Encode Sans'; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color: #555555;">
+          <p align="center"><b style="font-size:25px; line-height:1;"><strong>Avanza la pavimentación de la RN 23 en Río
+                Negro</strong></b></p>
+          <p>
+
+            En un tramo que comprende más de 180 kilómetros, se está llevando a cabo la pavimentación de la Ruta
+            Nacional 23, desde la localidad de Ingeniero Jacobacci hasta la intersección con la RN 40 en Dina Huapi.
+            <br />
+            <br />
+            La RN 23 es un corredor muy importante para el desarrollo del norte patagónico y fundamental para la
+            industria ovina y caprina de Río Negro. En sus 605 kilómetros de extensión atraviesa la provincia de este a
+            oeste, comenzando su recorrido en la RN 3, a 85 km del puerto frutero de San Antonio Este, y llegando hasta
+            Dina Huapi, en la intersección con la RN40.<br />
+            <br />
+            Actualmente, la obra de pavimentación se desarrolla entre las localidades de Ingeniero Jacobacci y Dina
+            Huapi. Los trabajos continúan en varios frentes en simultáneo, aprovechando las buenas condiciones
+            climáticas antes de la veda invernal.
+            <br />
+            <br />
+            Durante la realización del 2° Encuentro Nacional del Plan Integral de Mantenimiento Invernal el ministro de
+            Obras Públicas, Gabriel Katopodis y el administrador general de Vialidad Nacional, Gustavo Arrieta
+            recorrieron el tramo VII de la obra que comprende 36 kilómetros entre Comallo y Pilcanieyeu Viejo.
+            <br />
+            <br />
+            Con la finalización de esta obra, la RN 23 se convertirá en un corredor de gran importancia para el
+            desarrollo del norte patagónico y de la provincia, al brindar una conexión segura y ágil para que los
+            productores locales, vinculados a la actividad bovina, porcina y caprina puedan trasladar sus productos
+            tanto hacia Chile como hacia la zona portuaria de San Antonio Este. Además, se abrirá una gran puerta hacia
+            el interior de la provincia al conectar de forma segura y ágil las diferentes localidades que atraviesa y
+            convertirse en una alternativa más directa del tráfico turístico proveniente del Litoral que quiera
+            desplazarse hacia la cordillera, y sobre todo hacia Bariloche, por territorio rionegrino, ya que actualmente
+            se llega por medio de la RN 237 de Neuquén. <br />
+            <br />
+            Por último, la pavimentación de la ruta afianzará el corredor bioceánico, potenciando el comercio y el
+            traslado de cargas con Chile, al unir los puertos del Pacífico con los del Atlántico.
+          </p>
+        </td>
+      </tr>
+
+      </tr>
+
+      <table cellspacing="0" cellpadding="0" border="0" align="center" width="600" style="margin: auto;"
+        class="email-container">
+        <tr>
+          <td style="padding: 26px 0px 0px 0px; text-align: center "><a href="https://goo.gl/sMoxEi"
+              target="_blank"><img
+                src="https://nube.vialidad.gob.ar/prensa/nuevoespacio/newsletters/especiales/2022/abril/3/img/redes.png"
+                alt="alt_text" width="163" height="87" usemap="#Map" border="0"></a>
+          </td>
+        </tr>
+      </table>
+  </center>
+
+  <map name="Map" id="Map">
+    <area shape="rect" coords="25,21,58,54" href="https://www.instagram.com/vialidadnacional/" />
+    <area shape="rect" coords="65,21,98,54" href="https://www.facebook.com/vialidadnac/" />
+    <area shape="rect" coords="106,22,139,55"
+      href="https://twitter.com/GustavoHArrieta?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" />
+  </map>
+</body>
+
+</html>

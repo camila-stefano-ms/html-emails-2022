@@ -1,0 +1,683 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="es">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="x-apple-disable-message-reformatting">
+	<meta content="telephone=no" name="format-detection">
+	<title>Doppler</title>
+	<style>
+		html,
+		body {
+			margin: 0 auto !important;
+			padding: 0 !important;
+			background-color: #ffffff;
+		}
+
+		* {
+			-ms-text-size-adjust: 100%;
+			-webkit-text-size-adjust: 100%;
+		}
+
+		div[style*="margin: 16px 0"] {
+			margin: 0 !important;
+		}
+
+		table,
+		td {
+			mso-table-lspace: 0pt !important;
+			mso-table-rspace: 0pt !important;
+		}
+
+		table table table {
+			table-layout: auto;
+		}
+
+		img {
+			-ms-interpolation-mode: bicubic;
+			border: 0;
+			height: auto;
+			line-height: 100%;
+			outline: none;
+			text-decoration: none;
+		}
+
+		/* Hover styles for buttons */
+		.button--td:hover,
+		.button--a:hover {
+			background: #008046 !important;
+		}
+
+		.link-hover:hover {
+			color: #008046 !important;
+		}
+
+		*[x-apple-data-detectors],
+		.x-gmail-data-detectors,
+		.x-gmail-data-detectors *,
+		.aBn {
+			border-bottom: 0 !important;
+			cursor: default !important;
+			color: inherit !important;
+			text-decoration: none !important;
+			font-size: inherit !important;
+			font-family: inherit !important;
+			font-weight: inherit !important;
+			line-height: inherit !important;
+		}
+
+		th {
+			font-weight: normal;
+		}
+
+		/* MEDIA QUERIES */
+		@media all and (max-width:480px) {
+			.wrapper {
+				width: 320px !important;
+				padding: 0 !important;
+			}
+
+			.container {
+				width: 300px !important;
+				padding: 0 !important;
+			}
+
+			.mobile {
+				width: 300px !important;
+				display: block !important;
+				padding: 0 !important;
+			}
+
+			.mobile-title-fontsize {
+				font-size: 28px !important;
+				line-height: 34px !important;
+			}
+
+			.img {
+				width: 100% !important;
+				height: auto !important;
+			}
+
+			.mobileOff {
+				width: 0px !important;
+				height: 0px !important;
+				display: none !important;
+				overflow: hidden !important;
+				float: none !important;
+				visibility: hidden !important;
+				border: none !important;
+				font-size: 0px !important;
+				max-height: 0px !important;
+				mso-hide: all !important;
+			}
+
+			.mobileOn {
+				display: block !important;
+				width: auto !important;
+				height: auto !important;
+				overflow: visible !important;
+				float: none !important;
+				visibility: visible !important;
+				border: none !important;
+			}
+
+			.mobile-pl,
+			.mobile-pl-btn,
+			u+.body .mobile-pl,
+			u+.body .mobile-pl-btn {
+				padding-left: 0 !important;
+			}
+
+			.mobile-pt,
+			u+.body .mobile-pt {
+				padding-top: 20px !important;
+			}
+
+			.mobile-pr,
+			u+.body .mobile-pr {
+				padding-right: 0px !important;
+			}
+
+			.mobile-mr,
+			u+.body .mobile-mr {
+				margin-right: 0px !important;
+			}
+
+			.mobilePadding {
+				padding-left: 3% !important;
+				padding-right: 3% !important;
+				width: 100% !important;
+			}
+
+			.mobileMaxW {
+				max-width: 270px !important;
+			}
+
+			u~div .wrapper {
+				width: 100vw !important;
+			}
+
+			.mobile-center,
+			u+.body .mobile-center {
+				text-align: center !important;
+			}
+		}
+	</style>
+	<!--[if gte mso 9]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+</head>
+
+<body style="margin:0; padding:0;">
+	<center>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color:#FFFFFF">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td height="30" style="font-size:30px; line-height:30px;">&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center" valign="top">
+								<a href="https://goemms.com/?utm_source=revistaneo&utm_campaign=emms-nov-2022&utm_medium=partners"
+									target="_blank"><img src="logos.png" align="center" border="0" alt="Logo de EMMS by Doppler"
+										width="372" style="width:100%;max-width:372px !important; margin:0;"></a>
+							</td>
+						</tr>
+						<tr>
+							<td height="30" style="font-size:30px; line-height:30px;">&nbsp;</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color:#18023C">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<td align="center" valign="top">
+							<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+								<tr>
+									<td height="40" style="font-size:40px; line-height:40px;">&nbsp;</td>
+								</tr>
+								<tr>
+									<td align="center" valign="top" style="font-family:  Helvetica, Arial, sans-serif;">
+										<p style="Margin: 0;font-size: 15px;line-height: 20px;color:#FFFFFF;font-weight: 700;">
+											EMMS 2022: EVENTO ONLINE Y GRATIS
+										</p>
+										<p style="margin: 0; font-size: 10px; line-height: 10px">&nbsp;</p>
+										<h1
+											style="Margin: 0;font-size: 25px;line-height: 31px;color:#FFFFFF;font-weight: 700; max-width: 400px;">
+											¿Cómo destacar tu marca en el espacio virtual?&nbsp;🌐
+										</h1>
+										<p style="margin: 0; font-size: 30px; line-height: 30px">&nbsp;</p>
+										<p style="Margin: 0;font-size: 15px;line-height: 22px;color:#FFFFFF;font-weight: 400; ">
+											En el mundo digital los usuarios interactúan a diario con miles de marcas y se encuentran
+											expuestos a innumerables
+											mensajes, por lo que destacar entre ellos será muy valioso para que nuestros productos o
+											servicios sean considerados.
+										</p>
+										<p style="margin: 0; font-size: 22px; line-height: 22px">&nbsp;</p>
+										<p style="Margin: 0;font-size: 15px;line-height: 22px;color:#FFFFFF;font-weight: 400;">
+											Por eso, el <strong>posicionamiento de marca</strong> se convirtió en uno de los
+											<strong>factores críticos a la hora de planificar la Estrategia
+												de Marketing</strong> de cualquier negocio.
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td height="40" style="font-size:40px; line-height:40px;">&nbsp;</td>
+								</tr>
+							</table>
+
+							<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+								<tr>
+									<td align="center" valign="top" class="mobile"
+										style="font-family:  Helvetica, Arial, sans-serif;font-size: 13px;color:#FFFFFF;font-weight: 400;">
+										<!-- Button : BEGIN -->
+										<div>
+											<table cellspacing="0" cellpadding="0">
+												<tr>
+													<td
+														style="border-radius: 4px; background-color: #33AD73; color: #ffffff; padding: 14px 28px; text-align: center;"
+														class="button--td">
+														<a href="https://goemms.com/?utm_source=revistaneo&utm_campaign=emms-nov-2022&utm_medium=partners"
+															style="color: #ffffff; font-size:13px; font-weight: bold; font-family:sans-serif; text-decoration: none; width:100%; display:inline-block"
+															target="_blank"><span>CONOCE AQUÍ CÓMO POSICIONARTE</span></a>
+													</td>
+												</tr>
+											</table>
+											<!--[endif]-->
+										</div>
+										<!-- Button : END -->
+									</td>
+								</tr>
+								<tr>
+									<td height="40" style="font-size:40px; line-height:40px;">&nbsp;</td>
+								</tr>
+							</table>
+						</td>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color:#FFFFFF">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td align="center" valign="top">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td height="50" style="font-size:50px; line-height:50px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td class="mobile-center" align="left" valign="top"
+											style="font-family:  Helvetica, Arial, sans-serif;">
+											<h3 style="Margin: 0;font-size: 17px;line-height: 25px;color:#333333;font-weight: 700;">
+												¡Potencia tu marca!&nbsp;🚀
+											</h3>
+											<p style="font-size: 22px; line-height: 22px; margin: 0;">&nbsp;</p>
+											<p style="Margin: 0;font-size: 15px;line-height: 22px;color:#333333;font-weight: 400;">
+												De acuerdo a <a
+													href="https://www.nielsen.com/es/insights/2021/when-it-comes-to-brand-building-awareness-is-critical/"
+													target="_blank" style="text-decoration: none; color: #33AD73;font-weight: bold;"
+													class="link-hover ">recientes
+													estudios</a>, el <strong>conocimiento representa entre el 10% y el 35% del valor de
+													marca</strong>.
+											</p>
+											<p style="font-size: 22px; line-height: 22px; margin: 0;">&nbsp;</p>
+											<p style="Margin: 0;font-size: 15px;line-height: 22px;color:#333333;font-weight: 400;">
+												Las <strong>Redes Sociales</strong> parecen la vía ideal para ello: son el <strong>canal de
+													Marketing en
+													el que se
+													proyecta un mayor crecimiento</strong>
+												para el próximo año <em>(fuente: Informe Global de Marketing 2022, <a
+														href="https://annualmarketingreport.nielsen.com/" target="_blank"
+														style="text-decoration: none; color: #33AD73;font-weight: 400;"
+														class="link-hover ">Nielsen</a>)</em>.
+											</p>
+											<p style="font-size: 22px; line-height: 22px; margin: 0;">&nbsp;</p>
+											<p style="Margin: 0;font-size: 15px;line-height: 22px;color:#333333;font-weight: 400;">
+												Pero es necesario realizar una propuesta atractiva para poder destacar en este medio. Veamos
+												algunas ideas para
+												lograrlo:
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td height="30" style="font-size:30px; line-height:30px;">&nbsp;</td>
+									</tr>
+								</table>
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td align="center" valign="top">
+											<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+												<tr>
+													<th align="center" valign="middle" width="60" class="mobile">
+														<p>
+															<img src="check.png" align="center" border="0" alt="" width="20"
+																style="width:100%;max-width:20px !important; margin:0;">
+														</p>
+													</th>
+													<th align="left" valign="middle" width="540" class="mobile  mobile-center">
+														<p
+															style="font-family: Helvetica, Arial, sans-serif; Margin: 0;font-size: 15px;line-height: 21px;color:#333333;font-weight: 400;">
+															Utilizar <strong>Reels, TikToks, Youtube Shorts y otros formatos de video</strong>
+															consumidos por las nuevas generaciones</p>
+													</th>
+												</tr>
+											</table>
+											<table width="600" cellpadding="0" cellspacing="0" border="0" class="container mobileOff">
+												<tr>
+													<td height="10">
+														<p style="margin: 0; font-size: 10px; line-height: 10px">&nbsp;</p>
+													</td>
+												</tr>
+											</table>
+											<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+												<tr>
+													<th align="center" valign="middle" width="60" class="mobile mobile-pt">
+														<p>
+															<img src="check.png" align="center" border="0" alt="" width="20"
+																style="width:100%;max-width:20px !important; margin:0;">
+														</p>
+													</th>
+													<th align="left" valign="middle" width="540" class="mobile  mobile-center">
+														<p
+															style="font-family: Helvetica, Arial, sans-serif; Margin: 0;font-size: 15px;line-height: 21px;color:#333333;font-weight: 400;">
+															Generar <strong>contenido orgánico de valor</strong> para tu público haciendo uso del
+															<strong>Storytelling</strong>
+														</p>
+													</th>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="50" style="font-size:50px; line-height:50px;">&nbsp;</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color:#18023C">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td align="center" valign="top">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td height="40" style="font-size:40px; line-height:40px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td class="mobile-center" align="left" valign="top"
+											style="font-family:  Helvetica, Arial, sans-serif;">
+											<p style="Margin: 0;font-size: 15px;line-height: 22px;color:#FFFFFF;font-weight: 400;">
+												Pero esa no es la única forma de generar <strong><em>brand awareness</em></strong>. ¿Cómo hacer
+												que los usuarios conozcan tu marca?
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td height="30" style="font-size:30px; line-height:30px;">&nbsp;</td>
+									</tr>
+								</table>
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td align="center" valign="top">
+											<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+												<tr>
+													<th align="center" valign="middle" width="60" class="mobile">
+														<p>
+															<img src="check.png" align="center" border="0" alt="" width="20"
+																style="width:100%;max-width:20px !important; margin:0;">
+														</p>
+													</th>
+													<th align="left" valign="middle" width="540" class="mobile  mobile-center">
+														<p
+															style="font-family: Helvetica, Arial, sans-serif; Margin: 0;font-size: 15px;line-height: 21px;color:#FFFFFF;font-weight: 400;">
+															<strong>Publicidad online</strong>
+														</p>
+													</th>
+												</tr>
+											</table>
+											<table width="600" cellpadding="0" cellspacing="0" border="0" class="container mobileOff">
+												<tr>
+													<td height="10">
+														<p style="margin: 0; font-size: 10px; line-height: 10px">&nbsp;</p>
+													</td>
+												</tr>
+											</table>
+											<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+												<tr>
+													<th align="center" valign="middle" width="60" class="mobile mobile-pt">
+														<p>
+															<img src="check.png" align="center" border="0" alt="" width="20"
+																style="width:100%;max-width:20px !important; margin:0;">
+														</p>
+													</th>
+													<th align="left" valign="middle" width="540" class="mobile  mobile-center">
+														<p
+															style="font-family: Helvetica, Arial, sans-serif; Margin: 0;font-size: 15px;line-height: 21px;color:#FFFFFF;font-weight: 400;">
+															<strong>Aprovechar fechas destacadas</strong>, como por ejemplo el Mundial de Fútbol, para
+															generar ingeniosas acciones de Marketing que
+															llamen la atención
+														</p>
+													</th>
+												</tr>
+											</table>
+											<table width="600" cellpadding="0" cellspacing="0" border="0" class="container mobileOff">
+												<tr>
+													<td height="10">
+														<p style="margin: 0; font-size: 10px; line-height: 10px">&nbsp;</p>
+													</td>
+												</tr>
+											</table>
+											<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+												<tr>
+													<th align="center" valign="middle" width="60" class="mobile mobile-pt">
+														<p>
+															<img src="check.png" align="center" border="0" alt="" width="20"
+																style="width:100%;max-width:20px !important; margin:0;">
+														</p>
+													</th>
+													<th align="left" valign="middle" width="540" class="mobile  mobile-center">
+														<p
+															style="font-family: Helvetica, Arial, sans-serif; Margin: 0;font-size: 15px;line-height: 21px;color:#FFFFFF;font-weight: 400;">
+															Realizar <strong>Marketing de Contenidos</strong> para hacer crecer el <em>engagement</em>
+														</p>
+													</th>
+												</tr>
+											</table>
+											<table width="600" cellpadding="0" cellspacing="0" border="0" class="container mobileOff">
+												<tr>
+													<td height="10">
+														<p style="margin: 0; font-size: 10px; line-height: 10px">&nbsp;</p>
+													</td>
+												</tr>
+											</table>
+											<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+												<tr>
+													<th align="center" valign="middle" width="60" class="mobile mobile-pt">
+														<p>
+															<img src="check.png" align="center" border="0" alt="" width="20"
+																style="width:100%;max-width:20px !important; margin:0;">
+														</p>
+													</th>
+													<th align="left" valign="middle" width="540" class="mobile  mobile-center">
+														<p
+															style="font-family: Helvetica, Arial, sans-serif; Margin: 0;font-size: 15px;line-height: 21px;color:#FFFFFF;font-weight: 400;">
+															Implementar una <strong>mentalidad <em>data driven</em></strong> para optimizar tus
+															acciones y tomar decisiones fundamentadas en datos
+														</p>
+													</th>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="40" style="font-size:40px; line-height:40px;">&nbsp;</td>
+									</tr>
+								</table>
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td align="center" valign="top" style="font-family:  Helvetica, Arial, sans-serif;">
+											<p style="Margin: 0;font-size: 15px;line-height: 22px;color:#FFFFFF;font-weight: 400;">
+												Interesante, ¿cierto?&nbsp;💡
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td height="40" style="font-size:40px; line-height:40px;">&nbsp;</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color:#FFFFFF">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<td align="center" valign="top">
+							<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+								<tr>
+									<td height="50" style="font-size:50px; line-height:50px;">&nbsp;</td>
+								</tr>
+								<tr>
+									<td align="center" valign="top" style="font-family:  Helvetica, Arial, sans-serif;">
+										<p style="Margin: 0;font-size: 15px;line-height: 22px;color:#333333;font-weight: 400; ">
+											Descubre más detalles en la nueva edición del <strong>EMMS</strong>. <a
+												href="https://goemms.com/?utm_source=revistaneo&utm_campaign=emms-nov-2022&utm_medium=partners"
+												target="_blank" style="text-decoration: none; color: #33AD73;font-weight: bold;"
+												class="link-hover ">Inscríbete aquí</a> para disfrutar del <strong>Evento 100% online y
+												gratuito</strong> que
+											se realizará el <strong>8, 9 y 10 de noviembre</strong> y conocer así las claves para
+											<strong>generar una estrategia
+												ganadora en múltiples
+												canales</strong>.
+										</p>
+										<p style="margin: 0; font-size: 22px; line-height: 22px">&nbsp;</p>
+										<p style="Margin: 0;font-size: 15px;line-height: 22px;color:#333333;font-weight: 700;">
+											¡Únete al futuro del Marketing Digital!
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td height="30" style="font-size:30px; line-height:30px;">&nbsp;</td>
+								</tr>
+							</table>
+
+							<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+								<tr>
+									<td align="center" valign="top" class="mobile"
+										style="font-family:  Helvetica, Arial, sans-serif;font-size: 13px;color:#FFFFFF;font-weight: 400;">
+										<!-- Button : BEGIN -->
+										<div>
+											<table cellspacing="0" cellpadding="0">
+												<tr>
+													<td
+														style="border-radius: 4px; background-color: #33AD73; color: #ffffff; padding: 14px 28px; text-align: center;"
+														class="button--td">
+														<a href="https://goemms.com/?utm_source=revistaneo&utm_campaign=emms-nov-2022&utm_medium=partners"
+															style="color: #ffffff; font-size:13px; font-weight: bold; font-family:sans-serif; text-decoration: none; width:100%; display:inline-block"
+															target="_blank"><span>REGÍSTRATE AHORA</span></a>
+													</td>
+												</tr>
+											</table>
+											<!--[endif]-->
+										</div>
+										<!-- Button : END -->
+									</td>
+								</tr>
+								<tr>
+									<td height="50" style="font-size:50px; line-height:50px;">&nbsp;</td>
+								</tr>
+							</table>
+						</td>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color:#18023C">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td height="40" style="font-size:40px; line-height:40px;">&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center" valign="top">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td align="center" valign="top" style="font-family:  Helvetica, Arial, sans-serif;">
+											<h3 style="Margin: 0;font-size: 19px;line-height: 26px;color: #BF6AF2;font-weight: 700;">Quiénes
+												nos acompañan en esta edición</h3>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color:#18023C">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td height="20" style="font-size:20px; line-height:20px;" class="mobileOff">&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center" valign="top" class="mobileOff">
+								<a href="https://goemms.com/?utm_source=revistaneo&utm_campaign=emms-nov-2022&utm_medium=partners"
+									target="_blank"><img src="logos-desktop.png" align="center" border="0" alt="#" width="529"
+										style="width:100%;max-width:529px !important; margin:0;"></a>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="top" class="mobileOn" style="display: none;">
+								<a href="https://goemms.com/?utm_source=revistaneo&utm_campaign=emms-nov-2022&utm_medium=partners"
+									target="_blank"><img src="logos-mobile.png" align="center" border="0" alt="#" width="320"
+										style="width:100%;max-width:320px !important; margin:0;"></a>
+							</td>
+						</tr>
+						<tr>
+							<td height="20" style="font-size:20px; line-height:20px;" class="mobileOff">&nbsp;</td>
+						</tr>
+						<tr>
+							<td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color: #FFFFFF;">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td align="center" valign="top">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td align="center" valign="top">
+											<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+												<tr>
+													<td align="center" style="padding: 25px 0 0;">
+														<p style="
+												        padding: 0;
+												        margin: 0;
+												        font-family: Helvetica, Arial, sans-serif;
+												        font-size: 11px;
+												        line-height: 16px;
+												        color: #999999;
+												      ">
+															&copy;
+															<a href="#"
+																style="text-decoration: none; color: #33AD73;font-weight: 400; cursor: default;">Revista
+																Neo</a>.
+															Todos
+															los derechos reservados.
+														</p>
+													</td>
+												</tr>
+												<tr>
+													<td height="20" style="font-size:20px; line-height:20px;">&nbsp;</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</center>
+</body>
+
+</html>
