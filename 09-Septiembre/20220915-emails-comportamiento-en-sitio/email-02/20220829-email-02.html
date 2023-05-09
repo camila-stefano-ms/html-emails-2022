@@ -1,0 +1,936 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="es">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="x-apple-disable-message-reformatting">
+	<title>Doppler</title>
+	<style>
+		html,
+		body {
+			margin: 0 auto !important;
+			padding: 0 !important;
+			background-color: #ffffff;
+		}
+
+		* {
+			-ms-text-size-adjust: 100%;
+			-webkit-text-size-adjust: 100%;
+		}
+
+		div[style*="margin: 16px 0"] {
+			margin: 0 !important;
+		}
+
+		table,
+		td {
+			mso-table-lspace: 0pt !important;
+			mso-table-rspace: 0pt !important;
+		}
+
+		table table table {
+			table-layout: auto;
+		}
+
+		img {
+			-ms-interpolation-mode: bicubic;
+			border: 0;
+			height: auto;
+			line-height: 100%;
+			outline: none;
+			text-decoration: none;
+		}
+
+		/* Hover styles for buttons */
+		.button--td:hover,
+		.button--a:hover {
+			background: #008046 !important;
+		}
+
+		.link-hover:hover {
+			color: #008046 !important;
+		}
+
+		*[x-apple-data-detectors],
+		.x-gmail-data-detectors,
+		.x-gmail-data-detectors *,
+		.aBn {
+			border-bottom: 0 !important;
+			cursor: default !important;
+			color: inherit !important;
+			text-decoration: none !important;
+			font-size: inherit !important;
+			font-family: inherit !important;
+			font-weight: inherit !important;
+			line-height: inherit !important;
+		}
+
+		th {
+			font-weight: normal;
+		}
+
+		.mobileOn {
+			display: none !important;
+			max-height: none !important;
+		}
+
+		/* MEDIA QUERIES */
+		@media all and (max-width:480px) {
+			.wrapper {
+				width: 320px !important;
+				padding: 0 !important;
+			}
+
+			.container {
+				width: 300px !important;
+				padding: 0 !important;
+			}
+
+			.mobile {
+				width: 300px !important;
+				display: block !important;
+				padding: 0 !important;
+			}
+
+			.img {
+				width: 100% !important;
+				height: auto !important;
+			}
+
+			.mobileOff {
+				width: 0px !important;
+				display: none !important;
+			}
+
+			.mobileOn {
+				display: block !important;
+				max-height: none !important;
+			}
+
+			.mobile-pl,
+			.mobile-pl-btn,
+			u+.body .mobile-pl,
+			u+.body .mobile-pl-btn {
+				padding-left: 0 !important;
+			}
+
+			.mobile-pt,
+			u+.body .mobile-pt {
+				padding-top: 20px !important;
+			}
+
+			.mobile-pr,
+			u+.body .mobile-pr {
+				padding-right: 0px !important;
+			}
+
+			.mobile-margin-0,
+			u+.body .mobile-margin-0 {
+				margin: 0px !important;
+			}
+
+			.mobilePadding {
+				padding-left: 3% !important;
+				padding-right: 3% !important;
+				width: 100% !important;
+			}
+
+			u~div .wrapper {
+				width: 100vw !important;
+			}
+
+			.mobile-center,
+			u+.body .mobile-center {
+				text-align: center !important;
+			}
+		}
+	</style>
+	<!--[if gte mso 9]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+</head>
+
+<body style="margin:0; padding:0;">
+	<center>
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color: #FFFFFF">
+
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td align="center" valign="top">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td align="center" valign="top">
+											<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+												<tr>
+													<td width="600" align="right" valign="top" style="vertical-align: top;">
+														<a href="#" style="cursor: default;"><img src="textura.png" alt="SMS" width="241"
+																style="width:100%;max-width:241px !important; margin-top: 0; padding-top: 0;display: block;"
+																;></a>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td align="center" valign="top">
+											<a href="#" style="cursor: default;"> <img src="logo-doppler.png" alt="Logo de Doppler"
+													width="144" style="width:100%;max-width:144px !important;"></a>
+										</td>
+									</tr>
+									<tr>
+										<td height="50" style="font-size:50px; line-height:50px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td align="center" valign="top" style="font-family:  Helvetica, Arial, sans-serif;">
+											<p
+												style="Margin: 0;font-size: 19px;line-height: 30px;color:#333333;font-weight: 300; letter-spacing: 0.5px;;">
+												¿Sientes que debes mejorar tu Estrategia de Marketing?
+											</p>
+											<p style="margin: 0; line-height: 8px; font-size: 8px;">&nbsp;</p>
+											<p style="Margin: 0;font-size: 34px;line-height: 40px;color:#333333;font-weight: 700;">
+												Suma Doppler y aprovecha las ventajas de ser Omnicanal 🚀
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td height="50" style="font-size:50px; line-height:50px;">&nbsp;</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color:#5A3865">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td align="center" valign="top">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td height="50" style="font-size:50px; line-height:50px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td align="center" valign="top" class="container ">
+											<table cellpadding="0" cellspacing="0" border="0" class="container">
+												<tr>
+													<th align="center" valign="middle" width="300"
+														style="font-family: Helvetica, Arial, sans-serif;" class="mobile">
+														<table width="260" cellpadding="0" cellspacing="0" border="0" class="mobile ">
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<img src="asset01.png" alt="Asset de automatizar" width="25"
+																		style="width:100%;max-width:25px !important; ">
+																</th>
+															</tr>
+															<tr>
+																<td height="8" style="font-size:8px; line-height:8px;">&nbsp;
+																</td>
+															</tr>
+															<tr>
+																<th width="260" class=" mobile" align="center" valign="top">
+																	<p
+																		style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 400; font-size: 15px;line-height: 24px;color:#FFFFFF;font-weight: 400; Margin: 0">
+																		<strong>Campañas de Email</strong> Clásicas, Sociales y Test A/B
+																	</p>
+																</th>
+															</tr>
+															<tr>
+																<td height="30" style="font-size:30px; line-height:30px;">&nbsp;
+																</td>
+															</tr>
+														</table>
+													</th>
+													<th align="center" valign="middle" width="300"
+														style="font-family: Helvetica, Arial, sans-serif;" class="mobile">
+														<table width="260" cellpadding="0" cellspacing="0" border="0" class="mobile mobile-pt">
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<img src="asset02.png" alt="Asset Notificaciones Push" width="25"
+																		style="width:100%;max-width:25px !important; ">
+																</th>
+															</tr>
+															<tr>
+																<td height="8" style="font-size:8px; line-height:8px;">&nbsp;
+																</td>
+															</tr>
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<p
+																		style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 400; font-size: 15px;line-height: 24px;color:#FFFFFF;font-weight: 400; Margin: 0">
+																		<strong>Notificaciones Push</strong>.
+																	</p>
+																	<p class="mobileOff"
+																		style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 400; font-size: 15px;line-height: 24px;color:#FFFFFF;font-weight: 400; Margin: 0">
+																		&nbsp;
+																	</p>
+																</th>
+															</tr>
+															<tr>
+																<td height="30" style="font-size:30px; line-height:30px;">&nbsp;
+																</td>
+															</tr>
+														</table>
+													</th>
+												</tr>
+												<tr>
+													<th align="center" valign="middle" width="300"
+														style="font-family: Helvetica, Arial, sans-serif;" class="mobile">
+														<table width="260" cellpadding="0" cellspacing="0" border="0" class="mobile mobile-pt">
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<img src="asset03.png" alt="Asset de automatizar" width="25"
+																		style="width:100%;max-width:25px !important; ">
+																</th>
+															</tr>
+															<tr>
+																<td height="8" style="font-size:8px; line-height:8px;">&nbsp;
+																</td>
+															</tr>
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<p
+																		style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 400; font-size: 15px;line-height: 24px;color:#FFFFFF; Margin: 0">
+																		<strong>Email Automation para E-commerce</strong>, por Comportamiento del usuario,
+																		carritos abandonados y más.
+																	</p>
+																</th>
+															</tr>
+															<tr>
+																<td height="30" style="font-size:30px; line-height:30px;">&nbsp;
+																</td>
+															</tr>
+														</table>
+													</th>
+													<th align="center" valign="middle" width="300"
+														style="font-family: Helvetica, Arial, sans-serif;" class="mobile">
+														<table width="260" cellpadding="0" cellspacing="0" border="0" class="mobile mobile-pt">
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<img src="asset04.png" alt="Asset de automatizar" width="25"
+																		style="width:100%;max-width:25px !important; ">
+																</th>
+															</tr>
+															<tr>
+																<td height="8" style="font-size:8px; line-height:8px;">&nbsp;
+																</td>
+															</tr>
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<p
+																		style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 400; font-size: 15px;line-height: 24px;color:#FFFFFF; Margin: 0">
+																		<strong>Reportes Avanzados</strong> y en tiempo real.
+																	</p>
+																	<p class="mobileOff"
+																		style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 400; font-size: 15px;line-height: 24px;color:#FFFFFF; Margin: 0">
+																		&nbsp;
+																	</p>
+																</th>
+															</tr>
+															<tr>
+																<td height="30" style="font-size:30px; line-height:30px;">&nbsp;
+																</td>
+															</tr>
+														</table>
+													</th>
+												</tr>
+												<tr>
+													<th align="center" valign="middle" width="300"
+														style="font-family: Helvetica, Arial, sans-serif;" class="mobile">
+														<table width="260" cellpadding="0" cellspacing="0" border="0" class="mobile mobile-pt">
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<img src="asset05.png" alt="Asset de automatizar" width="25"
+																		style="width:100%;max-width:25px !important; ">
+																</th>
+															</tr>
+															<tr>
+																<td height="8" style="font-size:8px; line-height:8px;">&nbsp;
+																</td>
+															</tr>
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<p
+																		style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 400; font-size: 15px;line-height: 24px;color:#FFFFFF; Margin: 0">
+																		Campañas de <strong>SMS Marketing</strong>.
+																	</p>
+																	<p style="margin: 0; font-size: 24px; line-height: 24px" class="mobileOff">&nbsp;</p>
+																</th>
+															</tr>
+															<tr>
+																<td height="30" style="font-size:30px; line-height:30px;">&nbsp;
+																</td>
+															</tr>
+														</table>
+													</th>
+													<th align="center" valign="middle" width="300"
+														style="font-family: Helvetica, Arial, sans-serif;" class="mobile">
+														<table width="260" cellpadding="0" cellspacing="0" border="0" class="mobile mobile-pt">
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<img src="asset06.png" alt="Asset de automatizar" width="25"
+																		style="width:100%;max-width:25px !important; ">
+																</th>
+															</tr>
+															<tr>
+																<td height="8" style="font-size:8px; line-height:8px;">&nbsp;
+																</td>
+															</tr>
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<p
+																		style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 700; font-size: 15px;line-height: 24px;color:#FFFFFF; Margin: 0">
+																		Atención al Cliente en Español y por múltiples canales
+																	</p>
+																</th>
+															</tr>
+															<tr>
+																<td height="30" style="font-size:30px; line-height:30px;">&nbsp;
+																</td>
+															</tr>
+														</table>
+													</th>
+												</tr>
+												<tr>
+													<th align="center" valign="middle" width="300"
+														style="font-family: Helvetica, Arial, sans-serif;" class="mobile">
+														<table width="260" cellpadding="0" cellspacing="0" border="0" class="mobile mobile-pt">
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<img src="asset07.png" alt="Asset de automatizar" width="25"
+																		style="width:100%;max-width:25px !important; ">
+																</th>
+															</tr>
+															<tr>
+																<td height="8" style="font-size:8px; line-height:8px;">&nbsp;
+																</td>
+															</tr>
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<p
+																		style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 400; font-size: 15px;line-height: 24px;color:#FFFFFF; Margin: 0">
+																		<strong>Formularios</strong> de Suscripción Clásicos y <strong>Pop-up</strong>.
+																	</p>
+																</th>
+															</tr>
+															<tr>
+																<td height="30" style="font-size:30px; line-height:30px;">&nbsp;
+																</td>
+															</tr>
+														</table>
+													</th>
+													<th align="center" valign="middle" width="300"
+														style="font-family: Helvetica, Arial, sans-serif;" class="mobile">
+														<table width="260" cellpadding="0" cellspacing="0" border="0" class="mobile mobile-pt">
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<img src="asset08.png" alt="Asset de integraciones" width="25"
+																		style="width:100%;max-width:25px !important; ">
+																</th>
+															</tr>
+															<tr>
+																<td height="8" style="font-size:8px; line-height:8px;">&nbsp;
+																</td>
+															</tr>
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<p
+																		style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 700; font-size: 15px;line-height: 24px;color:#FFFFFF; Margin: 0">
+																		<strong>Integración con BigQuery</strong> y herramientas de Data Analytics.
+																	</p>
+																</th>
+															</tr>
+															<tr>
+																<td height="30" style="font-size:30px; line-height:30px;">&nbsp;
+																</td>
+															</tr>
+														</table>
+													</th>
+												</tr>
+												<tr>
+													<th align="center" valign="middle" width="300"
+														style="font-family: Helvetica, Arial, sans-serif;" class="mobile">
+														<table width="260" cellpadding="0" cellspacing="0" border="0" class="mobile mobile-pt">
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<img src="asset09.png" alt="Asset de integraciones" width="25"
+																		style="width:100%;max-width:25px !important; ">
+																</th>
+															</tr>
+															<tr>
+																<td height="8" style="font-size:8px; line-height:8px;">&nbsp;
+																</td>
+															</tr>
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<p
+																		style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 400; font-size: 15px;line-height: 24px;color:#FFFFFF; Margin: 0">
+																		<strong>Integraciones</strong> con otras plataformas.
+																	</p>
+																	<p style="margin: 0; font-size: 24px; line-height: 24px" class="mobileOff">&nbsp;</p>
+																</th>
+															</tr>
+															<tr>
+																<td height="30" style="font-size:30px; line-height:30px;">&nbsp;
+																</td>
+															</tr>
+														</table>
+													</th>
+													<th align="center" valign="middle" width="300"
+														style="font-family: Helvetica, Arial, sans-serif;" class="mobile">
+														<table width="260" cellpadding="0" cellspacing="0" border="0" class="mobile mobile-pt">
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<img src="asset10.png" alt="Asset de tablero DA" width="25"
+																		style="width:100%;max-width:25px !important; ">
+																</th>
+															</tr>
+															<tr>
+																<td height="8" style="font-size:8px; line-height:8px;">&nbsp;
+																</td>
+															</tr>
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<p
+																		style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 700; font-size: 15px;line-height: 24px;color:#FFFFFF; Margin: 0">
+																		Tablero de Google Data Studio 100% personalizable.
+																	</p>
+																</th>
+															</tr>
+															<tr>
+																<td height="30" style="font-size:30px; line-height:30px;">&nbsp;
+																</td>
+															</tr>
+														</table>
+													</th>
+												</tr>
+												<tr>
+													<th align="center" valign="middle" width="300"
+														style="font-family: Helvetica, Arial, sans-serif;" class="mobile">
+														<table width="260" cellpadding="0" cellspacing="0" border="0" class="mobile mobile-pt">
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<img src="asset11.png" alt="Asset de WhatsApp" width="25"
+																		style="width:100%;max-width:25px !important; ">
+																</th>
+															</tr>
+															<tr>
+																<td height="8" style="font-size:8px; line-height:8px;">&nbsp;
+																</td>
+															</tr>
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<p
+																		style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 400; font-size: 15px;line-height: 24px;color:#FFFFFF; Margin: 0">
+																		Botón de <strong>WhatsApp</strong> para Sitios Web.
+																	</p>
+																	<p style="margin: 0; font-size: 24px; line-height: 24px" class="mobileOff">&nbsp;</p>
+																</th>
+															</tr>
+															<tr>
+																<td height="30" style="font-size:30px; line-height:30px;">&nbsp;
+																</td>
+															</tr>
+														</table>
+													</th>
+													<th align="center" valign="middle" width="300"
+														style="font-family: Helvetica, Arial, sans-serif;" class="mobile">
+														<table width="260" cellpadding="0" cellspacing="0" border="0" class="mobile mobile-pt">
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<img src="asset12.png" alt="Asset de Envío Inteligente" width="25"
+																		style="width:100%;max-width:25px !important; ">
+																</th>
+															</tr>
+															<tr>
+																<td height="8" style="font-size:8px; line-height:8px;">&nbsp;
+																</td>
+															</tr>
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<p
+																		style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 700; font-size: 15px;line-height: 24px;color:#FFFFFF; Margin: 0">
+																		<strong>Envío Inteligente</strong> en el mejor día y horario para cada Contacto.
+																	</p>
+																</th>
+															</tr>
+															<tr>
+																<td height="30" style="font-size:30px; line-height:30px;">&nbsp;
+																</td>
+															</tr>
+														</table>
+													</th>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" style="font-size:20px; line-height:20px;">&nbsp;</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color: #FFFFFF;">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td align="center" valign="top">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td height="50" style="font-size:50px; line-height:50px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td align="center" valign="top" style="font-family:  Helvetica, Arial, sans-serif;">
+											<p
+												style="Margin: 0; max-width: 450px; font-size: 17px;line-height: 24px;color:#333333;font-weight: 400; ">
+												Si aún no tienes <strong>Plan Premium</strong>, elige uno que se adapte a tu Negocio
+												aprovechando un <strong>15% de
+													descuento</strong>&nbsp;🥳
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" style="font-size:20px; line-height:20px;">&nbsp;</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color: #FFFFFF;">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td align="center" valign="top">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td height="20" style="font-size:20px; line-height:20px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td align="center" valign="top" class="container ">
+											<table cellpadding="0" cellspacing="0" border="0" class="container">
+												<tr>
+													<th align="center" valign="middle" width="300"
+														style="font-family: Helvetica, Arial, sans-serif;" class="mobile">
+														<table width="260" cellpadding="0" cellspacing="0" border="0" class="mobile mobile-pt">
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<img src="https://i.imgur.com/liGw5RV.png" alt="15% OFF" width="168"
+																		style="width:100%;max-width:168px !important; ">
+																</th>
+															</tr>
+															<tr>
+																<td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+															</tr>
+															<tr>
+																<td width="260" class=" mobile" align="center" valign="top">
+																	<p
+																		style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 400; font-size: 15px;line-height: 24px;color:#333333;font-weight: 400; Margin: 0">
+																		en Plan Premium por Contactos
+																	</p>
+																</td>
+															</tr>
+															<tr>
+																<td height="30" style="font-size:30px; line-height:30px;">&nbsp;</td>
+															</tr>
+															<tr>
+																<td align="center" valign="top" style="font-family:  Helvetica, Arial, sans-serif;">
+																	<!-- Button : BEGIN -->
+																	<div
+																		style="font-size:13px; font-weight: bold; font-family: Helvetica, Arial, sans-serif;">
+																		<!--[if mso]>
+																			  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://app.fromdoppler.com/plan-selection/premium/by-contacts?Plan=monthly&PromoCode=COMPSITIO" style="height:41px;v-text-anchor:middle;width:181px;" arcsize="50%" strokecolor="#33AD73" strokeweight="1px" fillcolor="#33AD73" >
+																			  <w:anchorlock/>
+																			  <center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;">
+																			  CANJEA EL CÓDIGO
+																			  </center>
+																			  </v:roundrect>
+																			  <![endif]-->
+																		<!--[if !mso] -->
+																		<table cellspacing="0" cellpadding="0">
+																			<tr>
+																				<td
+																					style="border-radius: 99px; background-color: #33AD73; color: #ffffff; padding: 13px 26px; text-align: center;"
+																					class="button--td">
+																					<a href="https://app.fromdoppler.com/plan-selection/premium/by-contacts?Plan=monthly&PromoCode=COMPSITIO"
+																						style="color: #ffffff; font-size:13px; font-weight: bold; font-family:sans-serif; text-decoration: none; width:100%; display:inline-block"
+																						target="_blank"><span>CANJEA EL CÓDIGO</span></a>
+																				</td>
+																			</tr>
+																		</table>
+																		<!--[endif]-->
+																	</div>
+																	<!-- Button : END -->
+																</td>
+															</tr>
+															<tr>
+																<td height="20" style="font-size:20px; line-height:20px;">&nbsp;</td>
+															</tr>
+														</table>
+													</th>
+													<th align="center" valign="middle" width="300"
+														style="font-family: Helvetica, Arial, sans-serif;" class="mobile">
+														<table width="260" cellpadding="0" cellspacing="0" border="0" class="mobile mobile-pt">
+															<tr>
+																<th width="260" class="mobile" align="center" valign="top">
+																	<img src="https://i.imgur.com/liGw5RV.png" alt="15% OFF" width="168"
+																		style="width:100%;max-width:168px !important; ">
+																</th>
+															</tr>
+															<tr>
+																<td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+															</tr>
+															<tr>
+																<td width="260" class=" mobile" align="center" valign="top">
+																	<p
+																		style=" font-family:  Helvetica, Arial, sans-serif;font-weight: 400; font-size: 15px;line-height: 24px;color:#333333;font-weight: 400; Margin: 0">
+																		de Plan Premium por Créditos
+																	</p>
+																</td>
+															</tr>
+															<tr>
+																<td height="30" style="font-size:30px; line-height:30px;">&nbsp;</td>
+															</tr>
+															<tr>
+																<td align="center" valign="top" style="font-family:  Helvetica, Arial, sans-serif;">
+																	<!-- Button : BEGIN -->
+																	<div
+																		style="font-size:13px; font-weight: bold; font-family: Helvetica, Arial, sans-serif;">
+																		<!--[if mso]>
+																			  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://app.fromdoppler.com/plan-selection/premium/by-credits?Plan=monthly&PromoCode=COMPSITIO" style="height:41px;v-text-anchor:middle;width:181px;" arcsize="50%" strokecolor="#33AD73" strokeweight="1px" fillcolor="#33AD73" >
+																			  <w:anchorlock/>
+																			  <center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;">
+																			  CANJEA EL CÓDIGO
+																			  </center>
+																			  </v:roundrect>
+																			  <![endif]-->
+																		<!--[if !mso] -->
+																		<table cellspacing="0" cellpadding="0">
+																			<tr>
+																				<td
+																					style="border-radius: 99px; background-color: #33AD73; color: #ffffff; padding: 13px 26px; text-align: center;"
+																					class="button--td">
+																					<a href="https://app.fromdoppler.com/plan-selection/premium/by-credits?Plan=monthly&PromoCode=COMPSITIO"
+																						style="color: #ffffff; font-size:13px; font-weight: bold; font-family:sans-serif; text-decoration: none; width:100%; display:inline-block"
+																						target="_blank"><span>CANJEA EL CÓDIGO</span></a>
+																				</td>
+																			</tr>
+																		</table>
+																		<!--[endif]-->
+																	</div>
+																	<!-- Button : END -->
+																</td>
+															</tr>
+															<tr>
+																<td height="20" style="font-size:20px; line-height:20px;">&nbsp;</td>
+															</tr>
+														</table>
+													</th>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" style="font-size:20px; line-height:20px;">&nbsp;</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color: #FFFFFF;">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td align="center" valign="top">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td height="20" style="font-size:20px; line-height:20px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td align="center" valign="top" style="font-family:  Helvetica, Arial, sans-serif;">
+											<p style="Margin: 0; font-size: 15px;line-height: 24px;color:#333333;font-weight: 400; ">
+												¿Quieres saber cuál es el Plan ideal para ti? <a
+													href="https://help.fromdoppler.com/es/diferencias-planes-por-contactos-planes-por-creditos/?utm_source=fromdoppler&utm_medium=email&utm_campaign=compsitio-precios"
+													target="_blank" style="text-decoration: none; color: #33AD73;font-weight: bold;"
+													class="link-hover ">Mira nuestros Planes</a>
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td height="40" style="font-size:40px; line-height:40px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td align="center" valign="top" style="font-family:  Helvetica, Arial, sans-serif;">
+											<p
+												style="Margin: 0; max-width: 570px; font-size: 15px;line-height: 24px;color:#333333;font-weight: 400; ">
+												<em>*Beneficio válido para Planes por Créditos y Planes por Contactos. En el caso de Plan por
+													Contactos el descuento será
+													aplicado durante el período de 3 meses. Código de descuento no válido para recompras. Válido
+													únicamente para cuentas
+													gratuitas que deseen realizar la compra de Planes por primera vez.</em>
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td height="60" style="font-size:60px; line-height:60px;">&nbsp;</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation">
+			<tr>
+				<td align="center" valign="top" style="background-color: #ffffff">
+					<table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+						<tr>
+							<td align="center" valign="top">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+									<tr>
+										<td align="left" valign="top" style="border-top: 1px solid #B4B1A5;">
+
+											<table width="185" border="0" cellpadding="0" cellspacing="0">
+												<tbody>
+													<tr>
+														<td height="50" style="font-size:50px; line-height:50px;">
+															&nbsp;</td>
+													</tr>
+													<tr>
+														<td width="37" align="left">
+															<a href="https://twitter.com/fromDoppler" target="_blank"><img src="twitter-icon.png"
+																	style="width: 100%; max-width: 32px !important;" width="32" class="img"
+																	alt="Twitter" /></a>
+														</td>
+														<td width="37" align="left">
+															<a href="https://www.facebook.com/DopplerEmailMarketing" target="_blank"><img
+																	src="facebook-icon.png" style="width: 100%; max-width: 32px !important;" width="32"
+																	class="img" alt="Facebook" /></a>
+														</td>
+														<td width="37" align="left">
+															<a href="https://www.linkedin.com/company/228261" target="_blank"><img
+																	src="linkedin-icon.png" style="width: 100%; max-width: 32px !important;" width="32"
+																	class="img" alt="Linkedin" /></a>
+														</td>
+														<td width="37" align="left">
+															<a href="https://www.youtube.com/user/FromDoppler" target="_blank"><img
+																	src="youtube-icon.png" style="width: 100%; max-width: 32px !important;" width="32"
+																	class="img" alt="Youtube" /></a>
+														</td>
+														<td width="37" align="left">
+															<a href="https://www.instagram.com/fromdoppler" target="_blank"><img
+																	src="instagram-icon.png" style="width: 100%; max-width: 32px !important;" width="32"
+																	class="img" alt="Instagram" /></a>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="25" style="font-size:25px; line-height:25px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td align="left" style="padding: 25px 0 0;">
+											<p style="
+                                                                  padding: 0;
+                                                                  margin: 0;
+                                                                  font-family: Helvetica, Arial, sans-serif;
+                                                                  font-size: 11px;
+                                                                  line-height: 16px;
+                                                                  color: #999999;
+                                                                ">
+												&copy;
+												<a href="https://www.fromdoppler.com" target="_blank"
+													style="text-decoration: none; color: #33AD73;font-weight: bold;" class="link-hover ">Doppler
+													LLC</a>. Todos
+												los derechos reservados.
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" style="font-size:20px; line-height:20px;">&nbsp;</td>
+									</tr>
+									<tr>
+										<td align="left" valign="top">
+											<p style="
+                                                          padding: 0;
+                                                          margin: 0;
+                                                          font-family: Helvetica, Arial, sans-serif;
+                                                          font-size: 11px;
+                                                          line-height: 14px;
+                                                          color: #999999;
+                                                        ">
+												Te informamos que los datos personales
+												contenidos en esta comunicaci&oacute;n fueron recogidos
+												en nuestro Formulario de registro, cuyo
+												responsable es Doppler LLC, dado que prestaste
+												tu consentimiento para recibir nuestras
+												comunicaciones. Al registrarte como usuario,
+												acept&aacute;s y consent&iacute;s que tus datos sean
+												almacenados por nuestra plataforma, cuyos
+												servidores est&aacute;n en Estados Unidos, para
+												gestionar el env&iacute;o de las comunicaciones
+												correspondientes. Podr&aacute;s ejercer tus derechos de
+												acceso, rectificaci&oacute;n, limitaci&oacute;n y eliminaci&oacute;n
+												de los datos escribiendo a
+												<a href="mailto:legal@fromdoppler.com" target="_blank"
+													style="text-decoration: none; color: #33AD73;font-weight: bold;"
+													class="link-hover">legal@fromdoppler.com</a>,
+												as&iacute; como presentar una reclamaci&oacute;n ante una
+												autoridad de control. Si no dese&aacute;s seguir
+												recibiendo nuestras Campa&ntilde;as, pod&eacute;s darte de
+												baja autom&aacute;ticamente haciendo clic en el enlace
+												que se encuentra debajo. Pod&eacute;s consultar
+												informaci&oacute;n adicional y detallada sobre la
+												protecci&oacute;n de tus datos personales en nuestra
+												<a href="https://www.fromdoppler.com/legal/privacidad" target="_blank"
+													style="text-decoration: none; color: #33AD73; font-weight: bold;"
+													class="link-hover">Pol&iacute;tica de
+													Privacidad</a>.
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" style="font-size:20px; line-height:20px;">&nbsp;</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</center>
+</body>
+
+</html>
